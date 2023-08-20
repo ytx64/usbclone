@@ -4,7 +4,7 @@ The USB Clone Tool is a command-line utility for cloning files from a connected 
 
 ## Prerequisites
 
-- Go to the [Releases](https://github.com/yourusername/usbClone/releases) page to download the latest release for your operating system.
+- Go to the [Releases](https://github.com/yourusername/usbclone/releases) page to download the latest release for your operating system.
 
 ## Usage
 
