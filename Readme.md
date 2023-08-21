@@ -54,7 +54,7 @@ The USB Clone Tool maintains the original folder structure during transfers, kee
 ### 6. Fast and Selective Transfer
 Selective transfer accelerates copying of video and image files, making it quicker than traditional methods.
 
-### 7. Customizable Inclusions/Exclusions
+### 7. Customizable Inclusions/Exclusions (Not implemented yet!)
 Configure the tool to include or exclude specific file types during transfers.
 
 ### 8. Stress-Free Installation
