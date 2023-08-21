@@ -29,12 +29,15 @@ Replace /path/to/source with the full path of the directory where the device wil
 
 You can also use the -h flag to display the usage information:
 ```
-user@user:~/usbClone./usbclone -h
+./usbclone -h
+Runtime OS: linux
 Usage of ./usbclone:
   -destination string
-        Destination folder to clone stuff too. (default "NONE")
+        Destination folder to clone stuff too.
+  -include string
+        Custom extentions/filenames to look for.
   -source string
-        Source folder where the device will connect. (default "NONE")
+        Source folder where the device will connect.
 ```
 
 ## Additional Highlights
