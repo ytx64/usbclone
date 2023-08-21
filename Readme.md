@@ -17,12 +17,14 @@ Make sure you have the required source and destination paths ready before using 
 
 ### Linux:
 ```
-./usbclone -source='/path/to/source' -destination='/path/to/destination'
+./usbclone -source='/path/to/source' -destination='/path/to/destination' -include="jpg mp4 MyFile.txt"
 ```
 ### Windows
 ```
 .\usbclone -source='\path\to\source' -destination='\path\to\destination'
 ```
+Replace "jpg mp4 MyFile.txt" with your desired files and/or extentions. (This is optional to use) Do NOT include `.` when writing the extentions.
+
 Replace /path/to/source with the full path of the directory where the device will show up, and /path/to/destination with the full path of the directory where you want to save the data.
 
 You can also use the -h flag to display the usage information:
@@ -54,7 +56,7 @@ The USB Clone Tool maintains the original folder structure during transfers, kee
 ### 6. Fast and Selective Transfer
 Selective transfer accelerates copying of video and image files, making it quicker than traditional methods.
 
-### 7. Customizable Inclusions/Exclusions (Not implemented yet!)
+### 7. Customizable Inclusions/Exclusions (Only Linux!)
 Configure the tool to include or exclude specific file types during transfers.
 
 ### 8. Stress-Free Installation
